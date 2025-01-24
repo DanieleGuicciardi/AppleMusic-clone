@@ -9,7 +9,6 @@ A clone of Apple Music built with **React** and **Vite**. The project includes s
 - 🎧 **Modern Interface**: Responsive and visually appealing layout.
 - 🔍 **Music Search**: Integration with the Deezer API to search for music.
 - 📂 **State Management**: Global state managed with Redux Toolkit.
-- 🌈 **Apple Music Gradient**: Design inspired by the official Apple Music interface.
 
 ---
 

@@ -10,7 +10,7 @@ const DeezerEpisodes = () => {
     const fetchAlbums = async () => {
       try {
         const response = await fetch(
-          "https://striveschool-api.herokuapp.com/api/deezer/search?q=queen"
+          "https://striveschool-api.herokuapp.com/api/deezer/search?q=ACDC"
         );
         if (!response.ok) {
           throw new Error("Errore nella chiamata API");

@@ -5,6 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Sidebar from './components/Sidebar'
 import Player from './components/PlayerBar'
 import MainContent from './components/MainContent';
+import AppleFooter from './components/AppleFooter';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
         <div className="content">
           <MainContent />
 
+        <AppleFooter />
         </div>
       </div>
     </div>

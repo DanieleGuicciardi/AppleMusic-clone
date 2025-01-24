@@ -1,0 +1,100 @@
+/* Stile generale della sidebar */
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #252526;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.sidebar-logo {
+  margin-bottom: 20px;
+  padding: 0.5em;
+}
+
+
+.sidebar-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sidebar-search {
+  width: 100%;
+  padding-bottom: 1.5em;
+  padding-top: 0.5em;
+}
+
+i {
+  color: #FA2A55;
+  font-size: 18px;
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #000; 
+  border: 1px solid rgb(83, 83, 83); 
+  border-radius: 8px;
+  overflow: hidden;
+  height: 2.5em; 
+}
+
+
+.input-group-text {
+  background-color: #000;
+  border: none; 
+  color: #fff; 
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+.form-control {
+  background-color: #000; 
+  color: #fff; 
+  border: none; 
+  padding: 10px;
+  outline: none;
+}
+
+
+.form-control::placeholder {
+  color: #888; 
+}
+
+
+/* Menu */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-link:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+
+  font-size: 18px;
+  padding-left: 0.8em;
+}
+
+li{
+  padding: 0.8em;
+}
+
+li:hover {
+  background-color: #333; 
+  color: #ccc; 
+}

@@ -13,7 +13,7 @@ const Sidebar = () => {
       <div className="sidebar-search">
       <div className="input-group">
         <span className="input-group-text">
-          <i class="bi bi-search"></i>
+          <i className="bi bi-search sidebarIcon"></i>
         </span>
         <input
           type="text"
@@ -25,13 +25,13 @@ const Sidebar = () => {
 
       <ul className="sidebar-menu">
         <li className="menu-item">
-          <i class="bi bi-house"><a href="/">Home</a></i>
+          <i class="bi bi-house sidebarIcon"><a href="/">Home</a></i>
         </li>
         <li className="menu-item">
-          <i class="bi bi-border-all"><a href="/">News</a></i>
+          <i class="bi bi-border-all sidebarIcon"><a href="/">News</a></i>
         </li>
         <li className="menu-item">
-          <i class="bi bi-broadcast"><a href="/">Radio</a></i>
+          <i class="bi bi-broadcast sidebarIcon"><a href="/">Radio</a></i>
         </li>
       </ul>
     </div>

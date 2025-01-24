@@ -1,0 +1,123 @@
+.main-content {
+  color: white;
+  background-color: #121212;
+}
+
+.main-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #626262;
+}
+
+.main-header p {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.main-header span {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+
+.main-banner {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.banner-item {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+
+  text-align: center;
+  width: 100%;
+}
+
+.banner-item img {
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.banner-item h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.banner-item span {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.main-episodes {
+  margin-top: 30px;
+}
+
+.main-episodes h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.episodes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.episode-card {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+}
+
+.episode-card img {
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.episode-card h4 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.episode-card span {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.explore-section {
+  margin: 40px 20px;
+  color: white;
+}
+
+.explore-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+.explore-button {
+  background-color: #1F1F1F;
+  color: white;
+  font-size: 18px;
+  padding: 25px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #FA2A55;
+  text-align: start ;
+}
+
+.explore-button:hover {
+  background-color: #353434; 
+}
+
+

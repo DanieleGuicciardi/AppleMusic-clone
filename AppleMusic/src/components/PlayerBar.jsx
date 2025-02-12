@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../assets/logos/apple.svg'
-import '../styles/Playerbar.css'
+import '../styles/PlayerBar.css'
 
 const Player = () => {
   return (
